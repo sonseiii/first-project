@@ -1,0 +1,33 @@
+<!-- версия html -->
+<!DOCTYPE html>
+<!-- корневой элемент -->
+<html>
+    <!-- служебная информация (метаинформация) -->
+    <head>
+        <!-- кодировка -->
+        <meta charset="utf-8">
+        <!-- заголовок страницы -->
+        <title>привет, мир</title>
+        <link rel="stylesheet" href="./style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&display=swap" rel="stylesheet">
+    </head>
+    <!-- тело документа -->
+    <body>
+
+        <!-- универсальный контейнер блочного типа -->
+        <div class="button">Button</div>
+
+        <script>
+            // camelCase
+            // snake_case
+            const buttonElement = document.querySelector('.button');
+            
+            buttonElement.addEventListener('click', function () {
+                buttonElement.textContent = prompt();
+            });
+        </script>
+
+    </body>
+</html>

@@ -1,0 +1,35 @@
+/*
+
+css-правило
+
+селектор {
+    свойство-1: значение-1;
+    свойство-2: значение-2;
+}
+
+*/
+body {
+    background-image: linear-gradient(140deg, #FFCFC5, #F2F3BC);
+    height: 100vh;
+    margin: 0;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.button {
+    height: 80px;
+    background-color: #000;
+    width: 200px;
+    color: #fff;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+    transition-duration: 200ms;
+}
+
+.button:hover {
+    transform: scale(1.1);
+}
